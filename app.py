@@ -373,7 +373,7 @@ with st.sidebar:
 api_key = os.getenv("GROQ_API_KEY")
 if not api_key:
     st.error("GROQ_API_KEY is missing. Add it to your .env file and restart the app.")
-    st.code("GROQ_API_KEY=your_groq_api_key_here")
+    st.code("GROQ_API_KEY=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")
     st.stop()
 
 # ---------------------------------------------------------
